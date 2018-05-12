@@ -6,14 +6,10 @@ set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++")
 
 set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 
-set(SDL2_DIR ${PROJECT_SOURCE_DIR}/SDL2-2.0.8)
+set(SDL2_DIR ${PROJECT_SOURCE_DIR}/SDL2-2.0.8/i686-w64-mingw32)
 
 set(SOURCE_FILES
-        #02_getting_an_image_on_the_screen/02_getting_an_image_on_the_screen.cpp
-        #04_key_presses/04_key_presses.cpp
-        #31_scrolling_backgrounds/31_scrolling_backgrounds.cpp
-        32_text_input_and_clipboard_handling/32_text_input_and_clipboard_handling.cpp
-        #main.cpp
+        assets/32_text_input_and_clipboard_handling.cpp
         )
 
 find_package(SDL2 REQUIRED)
