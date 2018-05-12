@@ -9,7 +9,7 @@ set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 set(SDL2_DIR ${PROJECT_SOURCE_DIR}/SDL2-2.0.8/i686-w64-mingw32)
 
 set(SOURCE_FILES
-        assets/33_file_reading_and_writing.cpp
+        assets/35_window_events.cpp
         )
 
 find_package(SDL2 REQUIRED)
